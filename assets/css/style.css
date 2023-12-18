@@ -212,6 +212,15 @@ footer a {
   header nav ul li {
     display: inline-block;
   }
+
+  section h2 {
+    background-color: #b1aeae;
+    text-transform: lowercase;
+  }
+
+  section h2::first-letter {
+    text-transform: uppercase;
+  }
 }
 
 @media screen and (min-width: 768px) {
