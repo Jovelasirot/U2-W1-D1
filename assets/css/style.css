@@ -208,7 +208,13 @@ footer a {
 
 /* media queries */
 
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 350px) {
+  header nav ul li {
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 768px) {
   header nav ul li {
     display: inline-block;
   }
@@ -230,10 +236,27 @@ footer a {
 
   fieldset input {
     width: 70%;
+    height: 30px;
+  }
+
+  fieldset button {
+    height: 30px;
+  }
+
+  address {
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
+  body {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
   header div {
     display: flex;
     align-items: center;
@@ -327,6 +350,6 @@ footer a {
   }
 
   caption {
-    margin-top: 43px;
+    margin-top: 0px;
   }
 }
